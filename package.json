@@ -1,25 +1,37 @@
 {
   "name": "jain-pathshala-backend",
   "version": "1.0.0",
-  "description": "Backend API for Jain Pathshala Application",
+  "description": "Backend API for Jain Pathshala Attendance Portal",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "setup": "node scripts/setupInitialData.js"
+    "setup": "node scripts/setupInitialData.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "jain",
+    "pathshala",
+    "attendance",
+    "firebase"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "firebase-admin": "^11.11.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
+    "excel4node": "^1.8.2",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
     "helmet": "^7.1.0",
-    "express-rate-limit": "^7.1.5",
-    "express-validator": "^7.0.1",
-    "exceljs": "^4.4.0",
-    "pdfkit": "^0.14.0"
+    "morgan": "^1.10.0",
+    "pdfkit": "^0.14.0",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
