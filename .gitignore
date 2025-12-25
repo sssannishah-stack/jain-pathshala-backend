@@ -1,5 +1,35 @@
+# Dependencies
 node_modules/
+
+# Environment files
 .env
-*.log
-.DS_Store
+.env.local
+.env.production
+
+# Firebase
 serviceAccountKey.json
+firebase-debug.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+
+# Temp files
+tmp/
+temp/
+*.tmp
